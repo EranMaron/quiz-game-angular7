@@ -1,0 +1,6 @@
+<div class="answersContainer">
+  <div *ngFor="let answer of answers; let i=index" (click)="quizService.onAnswerChoosen(i, correctAnsIndex)">
+    <h3 (click)="quizService.onAnswerChoosen(i, correctAnsIndex)">{{ answer }}</h3>
+    <img *ngIf="quizService.answerindicate[i] > 0" src="../../../assets/images/{{ quizService.imgIndicate }}.png">
+  </div>
+</div>

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+.answersContainer {
+    display: grid;
+    position: relative;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+.answersContainer div {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+    height: 160px;
+    background: #FAFAFA;
+    border: 2px solid #D9E6EB;
+    border-radius: 23px;
+}
+
+h3 {
+    position: relative;
+    top: 38%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: #496472;
+    letter-spacing: 0;
+}
+
+.answersContainer div:hover {
+    box-shadow: 0 5px 10px .2px #888888;
+}
+
+.answersContainer div img {
+    position: absolute;
+    left: 37px;
+    top: 47px;
+    width: 70px;
+    height: 70px;
+}

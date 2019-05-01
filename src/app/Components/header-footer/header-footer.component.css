@@ -1,0 +1,14 @@
+
+.topHeader {
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+    width: 100vw;
+}
+
+.bottomHeader {
+    position: absolute;
+    transform: rotate(0deg);
+    width: 100vw;
+    bottom: 0;
+}

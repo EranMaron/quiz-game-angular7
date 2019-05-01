@@ -1,0 +1,6 @@
+<div class="quizContainer">
+  <app-question [currQuestion]="quizService.question" [answers]="quizService.allAnswers"
+    [correctAnsIndex]="quizService.randomIndex"></app-question>
+  <button (click)="handleBtnClicked()"
+    [disabled]="quizService.disableBtn">{{ quizService.btnValue }}</button>
+</div>

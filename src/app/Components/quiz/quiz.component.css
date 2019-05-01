@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
+
+.quizContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 80vw;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+button {
+    position: relative;
+    bottom: 0px;
+    margin: 0 auto;
+    width: 375px;
+    height: 69px;
+    background: #FF8F48;
+    border-radius: 100px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+button:hover {
+background: #F68034;
+}
+
+button:disabled {
+    background: #F0F0F0;
+}

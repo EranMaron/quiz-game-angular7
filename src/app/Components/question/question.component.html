@@ -1,0 +1,10 @@
+<div *ngIf="currQuestion" class="questionContainer">
+  <section class="questionContainer">
+    <h1>
+      <span>Q:{{ quizService.questionNumber }}</span>
+      {{ currQuestion }}
+    </h1>
+    <app-answer [answers]="quizService.allAnswers" [correctAnsIndex]="correctAnsIndex">
+    </app-answer>
+  </section>
+</div>

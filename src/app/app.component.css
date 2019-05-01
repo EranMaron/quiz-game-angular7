@@ -1,0 +1,14 @@
+.appContainer {
+    position: relative;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 1.2vw;
+    z-index: 1000;
+}
